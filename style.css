@@ -3,14 +3,25 @@ body {
     color: white;
 background: rgb(111,246,255);
 background: linear-gradient(347deg, rgba(111,246,255,0.4542191876750701) 0%, rgba(100,100,100,1) 100%);
-    }
+
+min-height: 100vh;
+
+}
     a {
       color:rgb(255, 255, 255);  
     }
+
+
 
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+.dropdown li{
+  list-style-type: none;
+  margin:0;
+  padding:10px;
 }
